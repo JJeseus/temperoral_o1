@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Para Ti 🌻</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Marco decorativo (arriba-derecha) -->
+    <img
+      class="marco marco-superior"
+      src="vista-superior-marco-girasoles-algodon.png"
+      alt="Marco de girasoles"
+      draggable="false"
+    />
+
+    <!-- Contenido principal -->
+    <main class="wrap">
+      <section class="card">
+        <h1 class="title">Para ti, con cariño 🌻</h1>
+        <p class="subtitle">Un detalle simple, pero hecho con intención.</p>
+
+        <div class="divider"></div>
+
+        <button id="btnMostrar" class="btn">Presiona aquí</button>
+
+        <div id="panelMensaje" class="mensaje" aria-hidden="true">
+          <p class="mensaje-titulo">💛 [Introducir_nombre]</p>
+          <p class="mensaje-texto" id="textoMensaje"></p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Brillitos suaves (decoración) -->
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
