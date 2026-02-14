@@ -5,7 +5,7 @@ const texto = document.getElementById("textoMensaje");
 /* ✅ Cambia aquí el mensaje */
 const MENSAJE = "Mi niña linda, te quiero mucho y con este tiempo que hemos pasado juntos, me di cuenta que me gustas mucho, eres la mujer que quiero y adoro, espero pasar el resto de la vida juntos. Te lumaris🌻💛";
 
-let mostrado = true;
+let mostrado = false;
 
 function typeWriter(el, str, speed = 18) {
   el.textContent = "";
@@ -32,5 +32,6 @@ btn.addEventListener("click", () => {
     btn.textContent = "Presiona aquí";
   }
 });
+
 
 
